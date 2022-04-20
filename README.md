@@ -1,15 +1,15 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+ ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Website
 
-> Description the project.
+> portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages : Html , Css
+- Frameworks : none
+- Technologies used : none
 
 ## Live Demo (if available)
 
@@ -42,15 +42,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MoRaad97](https://github.com/MoRaad97)
+- Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
+- LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,10 +59,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse Team 
+- Micronaots
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
