@@ -11,36 +11,36 @@
 
 @media (max-width: 768px) {
   .container {
-    width: calc(100% - 48px);
+    width: calc(100% - 13%);
   }
 }
 
-nav {
+header {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #3c3a39;
 }
 
-nav .nav-container {
+header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav .name {
+header .name {
   color: var(--main-text-color);
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-nav .links .icon {
+header .links .icon {
   width: 26px;
   display: flex;
   flex-wrap: wrap;
 }
 
-nav .links .icon span {
+header .links .icon span {
   margin-bottom: 2px;
   width: calc(100% - 10px);
   height: 2px;
@@ -57,15 +57,15 @@ nav .links .icon span {
 
 section .image {
   position: absolute;
-  top: 300px;
-  left: 228px;
+  top: 45%;
+  right: 0;
 }
 
 section .headline-container .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 section .headline-container .text h1 {
@@ -95,4 +95,7 @@ section .headline-container .social-icon {
   justify-content: space-between;
   width: 55%;
   margin-left: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
