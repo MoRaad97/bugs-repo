@@ -14,3 +14,31 @@
     width: calc(100% - 48px);
   }
 }
+nav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #3c3a39;
+}
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .name {
+  color: var(--main-text-color);
+  font-size: 17px;
+  font-family: var(--font-family-roboto);
+  font-weight: 700;
+}
+nav .links .icon {
+  width: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav .links .icon span {
+  margin-bottom: 2px;
+  width: calc(100% - 10px);
+  height: 2px;
+  background-color: var(--main-text-color);
+  border-radius: 5px;
+}
