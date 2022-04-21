@@ -2,6 +2,7 @@
   --main-text-color: white;
   --primary-template-color: #ff6b00;
   --secondary-template-color: #1c1a19;
+  --font-family-Crete-Round: "Crete Round", serif;
 }
 
 .container {
@@ -71,7 +72,7 @@
 #headline .headline-container .text h1 {
   margin: 0;
   font-size: 56px;
-  font-family: "Crete Round", serif;
+  font-family: var(--font-family-Crete-Round);
   font-weight: 400;
   color: var(--primary-template-color);
 }
@@ -100,58 +101,82 @@
 }
 
 #recent-work {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #recent-work .section-header {
+  margin: 0 auto 80px;
+  text-align: center;
 }
 
-#recent-work hr {
+#recent-work .section-header h1 {
+  font-size: 40px;
+  font-family: var(--font-family-Crete-Round);
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+#recent-work .section-header hr {
+  border-color: #212121;
+  border-width: 1px 0 0 0;
+}
+#recent-work .projects {
+  display: flex;
+  flex-direction: column;
 }
 
 #recent-work .projects .main-project {
 }
 
 #recent-work .projects .main-project img {
+  width: 100%;
 }
 
 #recent-work .projects .main-project h3 {
+  font-size: 32px;
+  font-family: var(--font-family-Crete-Round);
+  font-weight: 400;
+  margin: 15px 0;
+  color: #091e42;
 }
 
 #recent-work .projects .main-project p {
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: #091e42;
 }
 
 #recent-work .projects .main-project ul {
+  list-style: none;
+  justify-content: flex-start;
+  padding: 0;
 }
 
 #recent-work .projects .main-project ul li {
+  width: fit-content;
+  display: inline-block;
+  margin-right: 10px;
+  border: solid 1px #8993a4;
+  padding: 10px 12px;
+  text-align: center;
 }
 
 #recent-work .projects .main-project ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #091e42;
+  font-size: 15px;
 }
 
 #recent-work .projects .main-project button {
-}
-
-#recent-work .projects .secondary-projects {
-}
-
-#recent-work .projects .secondary-projects .project img {
-}
-
-#recent-work .projects .secondary-projects .project h2 {
-}
-
-#recent-work .projects .secondary-projects .project p {
-}
-
-#recent-work .projects .secondary-projects .project ul {
-}
-
-#recent-work .projects .secondary-projects .project ul li {
-}
-
-#recent-work .projects .secondary-projects .project ul li a {
-}
-
-#recent-work .projects .secondary-projects .project button {
+  padding: 12px;
+  background-color: var(--primary-template-color);
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.5px;
 }

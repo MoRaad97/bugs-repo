@@ -1,51 +1,27 @@
- ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Website
 
 > portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer.
 
-
 ## Built With
 
-- Major languages : Html , Css
-- Frameworks : none
-- Technologies used : none
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple steps.
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the project `$ git clone https://github.com/MoRaad97/portfolio-website-Microverse-project.git`
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohammed Raad**
 
 - GitHub: [@MoRaad97](https://github.com/MoRaad97)
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
 - LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
-
 
 ## 🤝 Contributing
 
@@ -59,10 +35,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse Team 
+- Microverse Team
 - Micronaots
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
-
+none.
