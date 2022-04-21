@@ -42,3 +42,48 @@ nav .links .icon span {
   background-color: var(--main-text-color);
   border-radius: 5px;
 }
+#headline {
+  background-color: var(--secondary-template-color);
+  height: 100vh;
+}
+section .headline-container {
+  position: relative;
+}
+section .headline-container .image {
+  position: absolute;
+  top: 300px;
+  left: 214px;
+}
+section .headline-container .image img {
+}
+section .headline-container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+section .headline-container .text h1 {
+  margin: 0;
+  font-size: 56px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: var(--primary-template-color);
+}
+section .headline-container .text h3 {
+  font-size: 24px;
+  font-family: var(--font-family-roboto);
+  color: var(--main-text-color);
+  margin: 0;
+}
+section .headline-container .text p {
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+}
+section .headline-container .social-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin-left: 10px;
+}
