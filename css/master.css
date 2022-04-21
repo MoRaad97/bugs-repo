@@ -15,32 +15,32 @@
   }
 }
 
-header {
+#header {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #3c3a39;
 }
 
-header .header-container {
+#header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .name {
+#header .name {
   color: var(--main-text-color);
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-header .links .icon {
+#header .links .icon {
   width: 26px;
   display: flex;
   flex-wrap: wrap;
 }
 
-header .links .icon span {
+#header .links .icon span {
   margin-bottom: 2px;
   width: calc(100% - 10px);
   height: 2px;
@@ -55,20 +55,20 @@ header .links .icon span {
   position: relative;
 }
 
-section .image {
+#headline .image {
   position: absolute;
   top: 45%;
   right: 0;
 }
 
-section .headline-container .text {
+#headline .headline-container .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80vh;
 }
 
-section .headline-container .text h1 {
+#headline .headline-container .text h1 {
   margin: 0;
   font-size: 56px;
   font-family: "Crete Round", serif;
@@ -76,21 +76,21 @@ section .headline-container .text h1 {
   color: var(--primary-template-color);
 }
 
-section .headline-container .text h3 {
+#headline .headline-container .text h3 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   margin: 0;
 }
 
-section .headline-container .text p {
+#headline .headline-container .text p {
   color: white;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
 
-section .headline-container .social-icon {
+#headline .headline-container .social-icon {
   display: flex;
   justify-content: space-between;
   width: 55%;
