@@ -106,32 +106,32 @@
   padding-bottom: var(--section-main-padding);
 }
 
-#recent-work .section-header {
+#recent-work .container .section-header {
   margin: 0 auto 80px;
   text-align: center;
 }
 
-#recent-work .section-header h1 {
+#recent-work .container .section-header h1 {
   font-size: 40px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
   margin-bottom: 50px;
 }
 
-#recent-work .section-header hr {
+#recent-work .container .section-header hr {
   border-color: #212121;
   border-width: 1px 0 0 0;
 }
-#recent-work .projects {
+#recent-work .container .projects {
   display: flex;
   flex-direction: column;
 }
 
-#recent-work .projects .main-project img {
+#recent-work .container .projects .main-project img {
   width: 100%;
 }
 
-#recent-work .projects .main-project h3 {
+#recent-work .container .projects .main-project h3 {
   font-size: 32px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -139,18 +139,18 @@
   color: #091e42;
 }
 
-#recent-work .projects .main-project p {
+#recent-work .container .projects .main-project p {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: #091e42;
 }
 
-#recent-work .projects .main-project ul {
+#recent-work .container .projects .main-project ul {
   list-style: none;
   padding: 0;
 }
 
-#recent-work .projects .main-project ul li {
+#recent-work .container .projects .main-project ul li {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
@@ -159,7 +159,7 @@
   text-align: center;
 }
 
-#recent-work .projects .main-project ul li a {
+#recent-work .container .projects .main-project ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -167,7 +167,7 @@
   font-size: 15px;
 }
 
-#recent-work .projects .main-project button {
+#recent-work .container .projects .main-project button {
   padding: 12px;
   background-color: var(--primary-template-color);
   border: none;
@@ -178,20 +178,20 @@
   letter-spacing: 0.5px;
 }
 
-#recent-work .projects .secondary-projects {
+#recent-work .container .projects .secondary-projects {
   margin: 15px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
 }
 
-#recent-work .projects .secondary-projects .project {
+#recent-work .container .projects .secondary-projects .project {
   background-image: url(../imgs/profesionalartprintingdata.png);
   overflow: hidden;
   padding: 16px 16px 0;
 }
 
-#recent-work .projects .secondary-projects .project h2 {
+#recent-work .container .projects .secondary-projects .project h2 {
   font-size: 32px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -199,7 +199,7 @@
   color: white;
 }
 
-#recent-work .projects .secondary-projects .project p {
+#recent-work .container .projects .secondary-projects .project p {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: white;
@@ -207,12 +207,12 @@
   font-weight: 300;
 }
 
-#recent-work .projects .secondary-projects .project ul {
+#recent-work .container .projects .secondary-projects .project ul {
   list-style: none;
   padding: 0;
 }
 
-#recent-work .projects .secondary-projects .project ul li {
+#recent-work .container .projects .secondary-projects .project ul li {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
@@ -221,7 +221,7 @@
   text-align: center;
 }
 
-#recent-work .projects .secondary-projects .project ul li a {
+#recent-work .container .projects .secondary-projects .project ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -229,7 +229,7 @@
   font-size: 15px;
 }
 
-#recent-work .projects .secondary-projects .project button {
+#recent-work .container .projects .secondary-projects .project button {
   padding: 12px 0;
   background-color: var(--primary-template-color);
   border: none;
@@ -251,7 +251,18 @@
   position: relative;
 }
 
-#about article h1 {
+#about img {
+  position: absolute;
+  bottom: 65%;
+  right: 0;
+}
+
+#about hr {
+  border: solid 1px #ffffff;
+  margin-top: 60%;
+}
+
+#about .container .about-me h1 {
   font-size: 72px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -259,13 +270,13 @@
   color: var(--primary-template-color);
 }
 
-#about article p {
+#about .container .about-me > p {
   line-height: 24px;
   font-family: "Inter", sans-serif;
   color: white;
 }
 
-#about article button {
+#about .container .about-me > button {
   padding: 13px 10px;
   background-color: var(--primary-template-color);
   border: none;
@@ -278,23 +289,12 @@
   display: block;
 }
 
-#about img {
-  position: absolute;
-  bottom: 65%;
-  right: 0;
-}
-
-#about hr {
-  border: solid 1px #ffffff;
-  margin-top: 60%;
-}
-
-#about .my-skills {
+#about .container .my-skills {
   padding-top: 30%;
   text-align: center;
 }
 
-#about .my-skills ul {
+#about .container .my-skills ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -302,29 +302,29 @@
   color: white;
 }
 
-#about .my-skills > ul > li {
+#about .container .my-skills > ul > li {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   margin: 12px;
 }
 
-#about .my-skills > ul > li:first-child {
+#about .container .my-skills > ul > li:first-child {
   list-style-image: url(../imgs/Rectangle-1.png);
   list-style-position: inside;
 }
 
-#about .my-skills > ul > li:nth-child(2) {
+#about .container .my-skills > ul > li:nth-child(2) {
   list-style-image: url(../imgs/Rectangle-2.png);
   list-style-position: inside;
 }
 
-#about .my-skills > ul > li:last-child {
+#about .container .my-skills > ul > li:last-child {
   list-style-image: url(../imgs/circule.png);
   list-style-position: inside;
 }
 
-#about .my-skills ul li li {
+#about .container .my-skills ul li li {
   font-size: 22px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
