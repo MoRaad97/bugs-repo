@@ -3,6 +3,7 @@
   --primary-template-color: #ff6b00;
   --secondary-template-color: #1c1a19;
   --font-family-Crete-Round: "Crete Round", serif;
+  --section-main-padding: 50px;
 }
 
 .container {
@@ -101,8 +102,8 @@
 }
 
 #recent-work {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: var(--section-main-padding);
+  padding-bottom: var(--section-main-padding);
 }
 
 #recent-work .section-header {
@@ -241,4 +242,91 @@
   position: relative;
   bottom: 0;
   left: -10%;
+}
+
+#about {
+  background-color: var(--secondary-template-color);
+  padding-top: var(--section-main-padding);
+  padding-bottom: var(--section-main-padding);
+  position: relative;
+}
+
+#about article h1 {
+  font-size: 72px;
+  font-family: var(--font-family-Crete-Round);
+  font-weight: 400;
+  text-align: center;
+  color: var(--primary-template-color);
+}
+
+#about article p {
+  line-height: 24px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#about article button {
+  padding: 13px 10px;
+  background-color: var(--primary-template-color);
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  width: 48%;
+  display: block;
+}
+
+#about img {
+  position: absolute;
+  bottom: 65%;
+  right: 0;
+}
+
+#about hr {
+  border: solid 1px #ffffff;
+  margin-top: 60%;
+}
+
+#about .my-skills {
+  padding-top: 30%;
+  text-align: center;
+}
+
+#about .my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: white;
+}
+
+#about .my-skills > ul > li {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 12px;
+}
+
+#about .my-skills > ul > li:first-child {
+  list-style-image: url(../imgs/Rectangle-1.png);
+  list-style-position: inside;
+}
+
+#about .my-skills > ul > li:nth-child(2) {
+  list-style-image: url(../imgs/Rectangle-2.png);
+  list-style-position: inside;
+}
+
+#about .my-skills > ul > li:last-child {
+  list-style-image: url(../imgs/circule.png);
+  list-style-position: inside;
+}
+
+#about .my-skills ul li li {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 32px;
 }
