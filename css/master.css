@@ -17,6 +17,7 @@
   }
 }
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 #about .container .my-skills ul li li {
   font-size: 22px;
   font-family: "Inter", sans-serif;
@@ -25,6 +26,7 @@
 }
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 #header {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -126,7 +128,7 @@
   margin-bottom: 50px;
 }
 
-#recent-work .container .section-header hr {
+#recent-work .container .section-header .hr {
   border-color: #212121;
   border-width: 1px 0 0 0;
 }
@@ -229,7 +231,7 @@
   text-align: center;
 }
 
-#recent-work .container .projects .secondary-projects .project ul li a {
+#recent-work .container .projects .secondary-projects .project ul li .a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -278,13 +280,13 @@
   color: var(--primary-template-color);
 }
 
-#about .container .about-me > p {
+#about .container .about-me > .paragraph2 {
   line-height: 24px;
   font-family: "Inter", sans-serif;
   color: white;
 }
 
-#about .container .about-me > button {
+#about .container .about-me > .button2 {
   padding: 13px 10px;
   background-color: var(--primary-template-color);
   border: none;
