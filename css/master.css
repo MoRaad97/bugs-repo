@@ -180,6 +180,7 @@
 #recent-work .projects .secondary-projects {
   margin: 15px 0;
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
 }
 
