@@ -16,7 +16,15 @@
     width: calc(100% - 13%);
   }
 }
+/* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#about .container .my-skills ul li li {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 32px;
+}
 
+/* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #header {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -127,7 +135,7 @@
   flex-direction: column;
 }
 
-#recent-work .container .projects .main-project img {
+#recent-work .container .projects .main-project .multi-post {
   width: 100%;
 }
 
@@ -139,18 +147,18 @@
   color: #091e42;
 }
 
-#recent-work .container .projects .main-project p {
+#recent-work .container .projects .main-project .paragraph {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: #091e42;
 }
 
-#recent-work .container .projects .main-project ul {
+#recent-work .container .projects .main-project .lags-used {
   list-style: none;
   padding: 0;
 }
 
-#recent-work .container .projects .main-project ul li {
+#recent-work .container .projects .main-project .lags-used .lag-used {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
@@ -159,7 +167,7 @@
   text-align: center;
 }
 
-#recent-work .container .projects .main-project ul li a {
+#recent-work .container .projects .main-project .lags-used .lag-used a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -167,7 +175,7 @@
   font-size: 15px;
 }
 
-#recent-work .container .projects .main-project button {
+#recent-work .container .projects .main-project .see-project {
   padding: 12px;
   background-color: var(--primary-template-color);
   border: none;
@@ -258,7 +266,7 @@
 }
 
 #about hr {
-  border: solid 1px #ffffff;
+  border: solid 1px white;
   margin-top: 60%;
 }
 
@@ -298,7 +306,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-
   color: white;
 }
 
@@ -322,11 +329,4 @@
 #about .container .my-skills > ul > li:last-child {
   list-style-image: url(../imgs/circule.png);
   list-style-position: inside;
-}
-
-#about .container .my-skills ul li li {
-  font-size: 22px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  margin: 32px;
 }
