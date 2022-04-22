@@ -126,9 +126,6 @@
   flex-direction: column;
 }
 
-#recent-work .projects .main-project {
-}
-
 #recent-work .projects .main-project img {
   width: 100%;
 }
@@ -149,7 +146,6 @@
 
 #recent-work .projects .main-project ul {
   list-style: none;
-  justify-content: flex-start;
   padding: 0;
 }
 
@@ -179,4 +175,69 @@
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.5px;
+}
+
+#recent-work .projects .secondary-projects {
+  margin: 15px 0;
+  display: grid;
+  gap: 24px;
+}
+
+#recent-work .projects .secondary-projects .project {
+  background-image: url(../imgs/profesionalartprintingdata.png);
+  overflow: hidden;
+  padding: 16px 16px 0;
+}
+
+#recent-work .projects .secondary-projects .project h2 {
+  font-size: 32px;
+  font-family: var(--font-family-Crete-Round);
+  font-weight: 400;
+  margin: 72px 0 0;
+  color: white;
+}
+
+#recent-work .projects .secondary-projects .project p {
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: white;
+  margin: 12px 0 0;
+  font-weight: 300;
+}
+
+#recent-work .projects .secondary-projects .project ul {
+  list-style: none;
+  padding: 0;
+}
+
+#recent-work .projects .secondary-projects .project ul li {
+  width: fit-content;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #ffffff3d;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+#recent-work .projects .secondary-projects .project ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+}
+
+#recent-work .projects .secondary-projects .project button {
+  padding: 12px 0;
+  background-color: var(--primary-template-color);
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  width: calc(100% + 20%);
+  position: relative;
+  bottom: 0;
+  left: -10%;
 }
