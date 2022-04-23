@@ -16,6 +16,7 @@
     width: calc(100% - 13%);
   }
 }
+
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 #about .container .my-skills ul li li {
@@ -23,6 +24,35 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 32px;
+}
+
+#about .container .my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#about .container .my-skills > ul > li {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 12px;
+}
+
+#about .container .my-skills > ul > li:first-child {
+  list-style-image: url(../imgs/Rectangle-1.png);
+  list-style-position: inside;
+}
+
+#about .container .my-skills > ul > li:nth-child(2) {
+  list-style-image: url(../imgs/Rectangle-2.png);
+  list-style-position: inside;
+}
+
+#about .container .my-skills > ul > li:last-child {
+  list-style-image: url(../imgs/circule.png);
+  list-style-position: inside;
 }
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -132,6 +162,7 @@
   border-color: #212121;
   border-width: 1px 0 0 0;
 }
+
 #recent-work .container .projects {
   display: flex;
   flex-direction: column;
@@ -302,33 +333,4 @@
 #about .container .my-skills {
   padding-top: 30%;
   text-align: center;
-}
-
-#about .container .my-skills ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
-
-#about .container .my-skills > ul > li {
-  font-size: 32px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  margin: 12px;
-}
-
-#about .container .my-skills > ul > li:first-child {
-  list-style-image: url(../imgs/Rectangle-1.png);
-  list-style-position: inside;
-}
-
-#about .container .my-skills > ul > li:nth-child(2) {
-  list-style-image: url(../imgs/Rectangle-2.png);
-  list-style-position: inside;
-}
-
-#about .container .my-skills > ul > li:last-child {
-  list-style-image: url(../imgs/circule.png);
-  list-style-position: inside;
 }
