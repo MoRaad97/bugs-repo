@@ -19,20 +19,6 @@
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-#about .container .my-skills ul li li {
-  font-size: 22px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  margin: 32px;
-}
-
-#about .container .my-skills ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
-
 #about .container .my-skills > ul > li {
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -53,6 +39,20 @@
 #about .container .my-skills > ul > li:last-child {
   list-style-image: url(../imgs/circule.png);
   list-style-position: inside;
+}
+
+#about .container .my-skills ul li li {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 32px;
+}
+
+#about .container .my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
