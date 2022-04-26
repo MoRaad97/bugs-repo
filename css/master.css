@@ -371,5 +371,20 @@
   line-height: 30px;
 }
 
-.contact form .text-email .submit {
+.contact form .submit {
+  display: flex;
+  justify-content: center;
+}
+
+.contact form .submit input {
+  padding: 13px 10px;
+  background-color: var(--primary-template-color);
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  width: 48%;
+  display: block
 }
