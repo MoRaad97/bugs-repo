@@ -340,6 +340,13 @@
   margin-bottom: var(--section-main-padding);
 }
 
+/* stylelint-disable */
+.contact .container {
+  display: flex;
+  flex-direction: column;
+}
+/* stylelint-enable */
+
 .contact .contact-header {
   font-size: 32px;
   font-weight: bold;
@@ -425,6 +432,14 @@
   left: 12.5%;
 }
 
-.contact form .submit input:hover { background-color: #fff5e1; border: solid 1px var(--primary-template-color); color: var(--primary-template-color); } 
+.contact form .submit input:hover {
+  background-color: #fff5e1;
+  border: solid 1px var(--primary-template-color);
+  color: var(--primary-template-color);
+}
 
-.contact form .submit input:active { background-color: #e05304; border: solid 1px white; color: white; } 
+.contact form .submit input:active {
+  background-color: #e05304;
+  border: solid 1px white;
+  color: white;
+}
