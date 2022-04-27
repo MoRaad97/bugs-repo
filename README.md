@@ -23,6 +23,12 @@ To get a local copy up and running follow these simple steps.
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
 - LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
 
+👤 **Mugiira-Kim**
+
+- GitHub: [@githubhandle](https://github.com/Mugiira-Kim)
+- Twitter: [@twitterhandle](https://twitter.com/@Bbm-Cru)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Mugiira-kim)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
