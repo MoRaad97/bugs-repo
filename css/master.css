@@ -424,3 +424,5 @@
   bottom: -21px;
   left: 12.5%;
 }
+
+.contact form .submit input:hover { background-color: #fff5e1; border: solid 1px var(--primary-template-color); color: var(--primary-template-color); } 
