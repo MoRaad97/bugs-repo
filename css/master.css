@@ -402,8 +402,7 @@
   margin-top: 130px;
 }
 
-/* stylelint-enable no-descending-specificity */
-
+/* stylelint-disable */
 .footer .social-icon {
   display: flex;
   justify-content: space-between;
@@ -413,8 +412,7 @@
   width: 43%;
   position: relative;
 }
-
-/* stylelint-enable no-descending-specificity */
+/* stylelint-enable */
 
 .footer .social-icon::after {
   content: "";
