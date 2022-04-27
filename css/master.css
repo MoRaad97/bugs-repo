@@ -211,12 +211,24 @@
 #recent-work .container .projects .main-project .see-project {
   padding: 12px;
   background-color: var(--primary-template-color);
-  border: none;
+  border: solid 1px white;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.5px;
+}
+
+#recent-work .container .projects .main-project .see-project:hover {
+  background-color: #fff5e1;
+  border: solid 1px var(--primary-template-color);
+  color: var(--primary-template-color);
+}
+
+#recent-work .container .projects .main-project .see-project:active {
+  background-color: #e05304;
+  border: solid 1px white;
+  color: white;
 }
 
 #recent-work .container .projects .secondary-projects {
@@ -320,14 +332,24 @@
 #about .container .about-me > .button2 {
   padding: 13px 10px;
   background-color: var(--primary-template-color);
-  border: none;
+  border: solid 1px #1c1a19;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.5px;
-  width: 48%;
-  display: block;
+}
+
+#about .container .about-me > .button2:hover {
+  background-color: #fff5e1;
+  border: solid 1px var(--primary-template-color);
+  color: var(--primary-template-color);
+}
+
+#about .container .about-me > .button2:active {
+  background-color: #e05304;
+  border: solid 1px #1c1a19;
+  color: white;
 }
 
 #about .container .my-skills {
@@ -339,14 +361,10 @@
   margin-top: var(--section-main-padding);
   margin-bottom: var(--section-main-padding);
 }
-
-/* stylelint-disable */
 .contact .container {
   display: flex;
   flex-direction: column;
 }
-/* stylelint-enable */
-
 .contact .contact-header {
   font-size: 32px;
   font-weight: bold;
@@ -394,7 +412,7 @@
 .contact form .submit input {
   padding: 13px;
   background-color: var(--primary-template-color);
-  border: none;
+  border: solid 1px white;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -402,6 +420,18 @@
   letter-spacing: 0.5px;
   width: 42%;
   display: block;
+}
+
+.contact form .submit input:hover {
+  background-color: #fff5e1;
+  border: solid 1px var(--primary-template-color);
+  color: var(--primary-template-color);
+}
+
+.contact form .submit input:active {
+  background-color: #e05304;
+  border: solid 1px white;
+  color: white;
 }
 
 .footer {
@@ -430,16 +460,4 @@
   position: absolute;
   bottom: -21px;
   left: 12.5%;
-}
-
-.contact form .submit input:hover {
-  background-color: #fff5e1;
-  border: solid 1px var(--primary-template-color);
-  color: var(--primary-template-color);
-}
-
-.contact form .submit input:active {
-  background-color: #e05304;
-  border: solid 1px white;
-  color: white;
 }
