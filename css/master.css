@@ -11,44 +11,52 @@
   padding: 0 12px;
 }
 
+/* // mobile devices  */
 @media (max-width: 768px) {
   .container {
     width: calc(100% - 13%);
   }
 }
 
+/* // desktop devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: calc(100% - 21.3194444444%);
+  }
+}
+
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-#about .container .my-skills > ul > li {
+.about .container .my-skills > ul > li {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   margin: 12px;
 }
 
-#about .container .my-skills ul li li {
+.about .container .my-skills ul li li {
   font-size: 22px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 32px;
 }
 
-#about .container .my-skills > ul > li:first-child {
+.about .container .my-skills > ul > li:first-child {
   list-style-image: url(../imgs/Rectangle-1.png);
   list-style-position: inside;
 }
 
-#about .container .my-skills > ul > li:nth-child(2) {
+.about .container .my-skills > ul > li:nth-child(2) {
   list-style-image: url(../imgs/Rectangle-2.png);
   list-style-position: inside;
 }
 
-#about .container .my-skills > ul > li:last-child {
+.about .container .my-skills > ul > li:last-child {
   list-style-image: url(../imgs/circule.png);
   list-style-position: inside;
 }
 
-#about .container .my-skills ul {
+.about .container .my-skills ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -57,32 +65,51 @@
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-#header {
+.header {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #3c3a39;
 }
 
-#header .header-container {
+.header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#header .name {
+.header .name {
   color: var(--main-text-color);
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-#header .links .icon {
+.header .header-container .links ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+.header .header-container .links ul li {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.header .header-container .links ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+}
+.header .header-container .links ul li a img {
+}
+
+.header .links .icon {
   width: 26px;
   display: flex;
   flex-wrap: wrap;
 }
 
-#header .links .icon span {
+.header .links .icon span {
   margin-bottom: 2px;
   width: calc(100% - 10px);
   height: 2px;
@@ -90,27 +117,37 @@
   border-radius: 5px;
 }
 
-#headline {
+@media (min-width: 768px) {
+  .header .header-container .links ul {
+    display: flex;
+    align-items: center;
+  }
+  .header .links .icon {
+    display: none;
+  }
+}
+
+.headline {
   background-color: var(--secondary-template-color);
   height: 100vh;
   overflow: hidden;
   position: relative;
 }
 
-#headline .image {
+.headline .image {
   position: absolute;
   top: 45%;
   right: 0;
 }
 
-#headline .headline-container .text {
+.headline .headline-container .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80vh;
 }
 
-#headline .headline-container .text h1 {
+.headline .headline-container .text h1 {
   margin: 0;
   font-size: 56px;
   font-family: var(--font-family-Crete-Round);
@@ -118,21 +155,21 @@
   color: var(--primary-template-color);
 }
 
-#headline .headline-container .text h3 {
+.headline .headline-container .text h3 {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   margin: 0;
 }
 
-#headline .headline-container .text p {
+.headline .headline-container .text p {
   color: white;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
 
-#headline .headline-container .social-icon {
+.headline .headline-container .social-icon {
   display: flex;
   justify-content: space-between;
   width: 55%;
@@ -141,38 +178,38 @@
   padding: 0;
 }
 
-#recent-work {
+.recent-work {
   padding-top: var(--section-main-padding);
   padding-bottom: var(--section-main-padding);
 }
 
-#recent-work .container .section-header {
+.recent-work .container .section-header {
   margin: 0 auto 80px;
   text-align: center;
 }
 
-#recent-work .container .section-header h1 {
+.recent-work .container .section-header h1 {
   font-size: 40px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
   margin-bottom: 50px;
 }
 
-#recent-work .container .section-header .hr {
+.recent-work .container .section-header .hr {
   border-color: #212121;
   border-width: 1px 0 0 0;
 }
 
-#recent-work .container .projects {
+.recent-work .container .projects {
   display: flex;
   flex-direction: column;
 }
 
-#recent-work .container .projects .main-project .multi-post {
+.recent-work .container .projects .main-project .multi-post {
   width: 100%;
 }
 
-#recent-work .container .projects .main-project h3 {
+.recent-work .container .projects .main-project h3 {
   font-size: 32px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -180,18 +217,18 @@
   color: #091e42;
 }
 
-#recent-work .container .projects .main-project .paragraph {
+.recent-work .container .projects .main-project .paragraph {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: #091e42;
 }
 
-#recent-work .container .projects .main-project .lags-used {
+.recent-work .container .projects .main-project .lags-used {
   list-style: none;
   padding: 0;
 }
 
-#recent-work .container .projects .main-project .lags-used .lag-used {
+.recent-work .container .projects .main-project .lags-used .lag-used {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
@@ -200,7 +237,7 @@
   text-align: center;
 }
 
-#recent-work .container .projects .main-project .lags-used .lag-used a {
+.recent-work .container .projects .main-project .lags-used .lag-used a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -208,7 +245,7 @@
   font-size: 15px;
 }
 
-#recent-work .container .projects .main-project .see-project {
+.recent-work .container .projects .main-project .see-project {
   padding: 12px;
   background-color: var(--primary-template-color);
   border: solid 1px white;
@@ -219,32 +256,32 @@
   letter-spacing: 0.5px;
 }
 
-#recent-work .container .projects .main-project .see-project:hover {
+.recent-work .container .projects .main-project .see-project:hover {
   background-color: #fff5e1;
   border: solid 1px var(--primary-template-color);
   color: var(--primary-template-color);
 }
 
-#recent-work .container .projects .main-project .see-project:active {
+.recent-work .container .projects .main-project .see-project:active {
   background-color: #e05304;
   border: solid 1px white;
   color: white;
 }
 
-#recent-work .container .projects .secondary-projects {
+.recent-work .container .projects .secondary-projects {
   margin: 15px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
 }
 
-#recent-work .container .projects .secondary-projects .project {
+.recent-work .container .projects .secondary-projects .project {
   background-image: url(../imgs/profesionalartprintingdata.png);
   overflow: hidden;
   padding: 16px 16px 0;
 }
 
-#recent-work .container .projects .secondary-projects .project h2 {
+.recent-work .container .projects .secondary-projects .project h2 {
   font-size: 32px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -252,7 +289,7 @@
   color: white;
 }
 
-#recent-work .container .projects .secondary-projects .project p {
+.recent-work .container .projects .secondary-projects .project p {
   font-family: "Inter", sans-serif;
   line-height: 24px;
   color: white;
@@ -260,12 +297,12 @@
   font-weight: 300;
 }
 
-#recent-work .container .projects .secondary-projects .project ul {
+.recent-work .container .projects .secondary-projects .project ul {
   list-style: none;
   padding: 0;
 }
 
-#recent-work .container .projects .secondary-projects .project ul li {
+.recent-work .container .projects .secondary-projects .project ul li {
   width: fit-content;
   display: inline-block;
   margin-right: 10px;
@@ -274,7 +311,7 @@
   text-align: center;
 }
 
-#recent-work .container .projects .secondary-projects .project ul li .a {
+.recent-work .container .projects .secondary-projects .project ul li .a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -282,7 +319,7 @@
   font-size: 15px;
 }
 
-#recent-work .container .projects .secondary-projects .project button {
+.recent-work .container .projects .secondary-projects .project button {
   padding: 12px 0;
   background-color: var(--primary-template-color);
   border: none;
@@ -297,25 +334,25 @@
   left: -10%;
 }
 
-#about {
+.about {
   background-color: var(--secondary-template-color);
   padding-top: var(--section-main-padding);
   padding-bottom: var(--section-main-padding);
   position: relative;
 }
 
-#about img {
+.about img {
   position: absolute;
   bottom: 65%;
   right: 0;
 }
 
-#about hr {
+.about hr {
   border: solid 1px white;
   margin-top: 60%;
 }
 
-#about .container .about-me h1 {
+.about .container .about-me h1 {
   font-size: 72px;
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
@@ -323,13 +360,13 @@
   color: var(--primary-template-color);
 }
 
-#about .container .about-me > .paragraph2 {
+.about .container .about-me > .paragraph2 {
   line-height: 24px;
   font-family: "Inter", sans-serif;
   color: white;
 }
 
-#about .container .about-me > .button2 {
+.about .container .about-me > .button2 {
   padding: 13px 10px;
   background-color: var(--primary-template-color);
   border: solid 1px #1c1a19;
@@ -340,19 +377,19 @@
   letter-spacing: 0.5px;
 }
 
-#about .container .about-me > .button2:hover {
+.about .container .about-me > .button2:hover {
   background-color: #fff5e1;
   border: solid 1px var(--primary-template-color);
   color: var(--primary-template-color);
 }
 
-#about .container .about-me > .button2:active {
+.about .container .about-me > .button2:active {
   background-color: #e05304;
   border: solid 1px #1c1a19;
   color: white;
 }
 
-#about .container .my-skills {
+.about .container .my-skills {
   padding-top: 30%;
   text-align: center;
 }
