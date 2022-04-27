@@ -89,18 +89,18 @@
   list-style: none;
   padding: 0;
 }
+
 .header .header-container .links ul li {
   margin-left: 16px;
   margin-right: 16px;
 }
+
 .header .header-container .links ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   color: white;
   font-size: 15px;
-}
-.header .header-container .links ul li a img {
 }
 
 .header .links .icon {
@@ -124,6 +124,12 @@
   }
   .header .links .icon {
     display: none;
+  }
+
+  .header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #3c3a39;
   }
 }
 
