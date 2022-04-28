@@ -269,6 +269,7 @@
   .recent-work .container .section-header {
     display: flex;
     align-items: center;
+    margin: 0 auto 50px;
   }
 
   .recent-work .container .section-header h1 {
