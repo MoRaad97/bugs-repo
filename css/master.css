@@ -433,9 +433,6 @@
   display: none;
 }
 
-@media (min-width: 768px) {
-}
-
 .about hr {
   border: solid 1px white;
   margin-top: 60%;
@@ -587,7 +584,7 @@
     text-align: left;
   }
 }
-/* stylelint-enable no-descending-specificity */
+
 .contact {
   margin-top: var(--section-main-padding);
   margin-bottom: var(--section-main-padding);
@@ -682,20 +679,15 @@
   .contact .contact-header {
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
     color: #172b4d;
     margin-bottom: 60px;
+    text-align: left;
     width: 40%;
+    margin-right: 5%;
   }
 
   .contact form {
     width: 60%;
-  }
-
-  .contact .contact-header {
-    text-align: left;
-    width: 40%;
-    margin-right: 5%;
   }
 
   .contact form .tx-em-div {
@@ -720,12 +712,14 @@
     width: 28%;
   }
 }
+
 .footer {
   border-top: solid 1px #dfe1e6;
   margin-top: 130px;
 }
 
 /* stylelint-disable */
+
 .footer .social-icon {
   display: flex;
   justify-content: space-between;
@@ -735,6 +729,7 @@
   width: 43%;
   position: relative;
 }
+
 /* stylelint-enable */
 
 .footer .social-icon::after {
@@ -757,3 +752,4 @@
     display: none;
   }
 }
+/* stylelint-enable no-descending-specificity */
