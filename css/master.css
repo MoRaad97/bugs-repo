@@ -576,6 +576,7 @@
   margin-bottom: 15px;
   text-indent: 5px;
   font-family: "Inter", sans-serif;
+  outline: none;
 }
 
 .contact form .tx-em-div .text-email:last-child input {
@@ -662,9 +663,8 @@
     justify-content: space-between;
   }
 
-  .contact form .tx-em-div .text-email input {
-    width: 90%;
-    font-family: "Inter", sans-serif;
+  .contact form .tx-em-div .text-email {
+    flex-basis: 47%;
   }
 
   .contact form .tx-em-div .text-email:last-child input {
@@ -706,4 +706,14 @@
   position: absolute;
   bottom: -21px;
   left: 12.5%;
+}
+
+@media (min-width: 768px) {
+  .footer .social-icon {
+    width: 15%;
+  }
+
+  .footer .social-icon::after {
+    display: none;
+  }
 }
