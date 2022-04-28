@@ -713,6 +713,8 @@
   }
 }
 
+/* stylelint-enable no-descending-specificity */
+
 .footer {
   border-top: solid 1px #dfe1e6;
   margin-top: 130px;
@@ -752,4 +754,3 @@
     display: none;
   }
 }
-/* stylelint-enable no-descending-specificity */
