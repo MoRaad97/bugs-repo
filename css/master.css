@@ -305,7 +305,6 @@
 .recent-work .container .projects .secondary-projects .project {
   background-image: url(../imgs/project-img-desktop.png);
   overflow: hidden;
-
   position: relative;
   height: 400px;
 }
@@ -320,13 +319,7 @@
   height: 100%;
 }
 
-.recent-work
-  .container
-  .projects
-  .secondary-projects
-  .project
-  .overlay
-  .project-content {
+.recent-work .projects .secondary-projects .project .overlay .project-content {
   padding: 16px 16px 0;
 }
 
@@ -391,13 +384,7 @@
     justify-content: flex-end;
   }
 
-  .recent-work
-    .container
-    .projects
-    .secondary-projects
-    .project
-    .overlay
-    .project-content {
+  .recent-work .projects .secondary-projects .overlay .project-content {
     padding: 10px;
   }
 
@@ -409,12 +396,7 @@
     top: 89%;
   }
 
-  .recent-work
-    .container
-    .projects
-    .secondary-projects
-    .project:hover
-    .overlay {
+  .recent-work .projects .secondary-projects .project:hover .overlay {
     display: none;
   }
 
@@ -422,11 +404,13 @@
     margin-right: 4px;
   }
 }
+
 @media (max-width: 619px) {
   .recent-work .container .projects .secondary-projects .project ul li {
     margin-right: 10px;
   }
 }
+/* stylelint-enable no-descending-specificity */
 .about {
   background-color: var(--secondary-template-color);
   padding-top: var(--section-main-padding);
@@ -602,7 +586,7 @@
     text-align: left;
   }
 }
-
+/* stylelint-enable no-descending-specificity */
 .contact {
   margin-top: var(--section-main-padding);
   margin-bottom: var(--section-main-padding);
