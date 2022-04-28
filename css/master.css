@@ -420,11 +420,21 @@
   padding-bottom: var(--section-main-padding);
   position: relative;
 }
+.about-me-main {
+  width: 50%;
+}
 
-.about img {
+.about .mobile-Illustr {
   position: absolute;
   bottom: 65%;
   right: 0;
+}
+
+.about .desktop-Illustr {
+  display: none;
+}
+
+@media (min-width: 768px) {
 }
 
 .about hr {
@@ -472,6 +482,37 @@
 .about .container .my-skills {
   padding-top: 30%;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .about .desktop-Illustr {
+    display: block;
+    top: 5%;
+    right: 0;
+    position: absolute;
+    width: 47%;
+  }
+
+  .about .mobile-Illustr {
+    display: none;
+  }
+
+  .about hr {
+    border: solid 1px white;
+    margin-top: 20%;
+  }
+
+  .about .container .about-me {
+    width: 55%;
+  }
+  .about .container .about-me h1 {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  .about .container .about-me > .button2 {
+    margin-top: 25px;
+  }
 }
 
 .contact {
