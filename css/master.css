@@ -410,7 +410,8 @@
     margin-right: 10px;
   }
 }
-/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable  no-descending-specificity */
 .about {
   background-color: var(--secondary-template-color);
   padding-top: var(--section-main-padding);
