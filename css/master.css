@@ -27,41 +27,7 @@
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.about .container .my-skills > ul > li {
-  font-size: 32px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  margin: 12px;
-}
 
-.about .container .my-skills ul li li {
-  font-size: 22px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  margin: 32px;
-}
-
-.about .container .my-skills > ul > li:first-child {
-  list-style-image: url(../imgs/Rectangle-1.png);
-  list-style-position: inside;
-}
-
-.about .container .my-skills > ul > li:nth-child(2) {
-  list-style-image: url(../imgs/Rectangle-2.png);
-  list-style-position: inside;
-}
-
-.about .container .my-skills > ul > li:last-child {
-  list-style-image: url(../imgs/circule.png);
-  list-style-position: inside;
-}
-
-.about .container .my-skills ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
 
 /* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -484,6 +450,55 @@
   text-align: center;
 }
 
+.about .container .my-skills ul .lang{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.about .container .my-skills > ul > li {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.about .container .my-skills ul li li {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 16px;
+}
+.about .container .my-skills ul li li:first-child {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.about .container .my-skills > ul > li:first-child {
+  list-style-image: url(../imgs/Rectangle-1.png);
+  list-style-position: inside;
+}
+
+.about .container .my-skills > ul > li:nth-child(2) {
+  list-style-image: url(../imgs/Rectangle-2.png);
+  list-style-position: inside;
+}
+
+.about .container .my-skills > ul > li:last-child {
+  list-style-image: url(../imgs/circule.png);
+  list-style-position: inside;
+}
+
+.about .container .my-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
 @media (min-width: 768px) {
   .about .desktop-Illustr {
     display: block;
@@ -513,6 +528,28 @@
   .about .container .about-me > .button2 {
     margin-top: 25px;
   }
+ 
+  
+  .about .container .my-skills {
+    padding-top: 15%;
+  }
+  
+  .about .container .my-skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about .container .my-skills ul .lang{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .contact {
