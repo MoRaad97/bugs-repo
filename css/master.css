@@ -25,12 +25,6 @@
   }
 }
 
-/* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-
-
-/* linter problems !!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
 .header {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -292,7 +286,6 @@
   .main-article {
     display: flex;
     justify-content: space-between;
-    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! but the Text in another div not with the img "See inside the main-project class" */
   }
 
   .main-article .project-text {
@@ -386,6 +379,7 @@
   padding-bottom: var(--section-main-padding);
   position: relative;
 }
+
 .about-me-main {
   width: 50%;
 }
@@ -450,7 +444,7 @@
   text-align: center;
 }
 
-.about .container .my-skills ul .lang{
+.about .container .my-skills ul .lang {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -470,6 +464,7 @@
   font-weight: 400;
   margin: 16px;
 }
+
 .about .container .my-skills ul li li:first-child {
   font-size: 22px;
   font-family: "Inter", sans-serif;
@@ -520,6 +515,7 @@
   .about .container .about-me {
     width: 55%;
   }
+
   .about .container .about-me h1 {
     text-align: left;
     margin-bottom: 25px;
@@ -528,12 +524,11 @@
   .about .container .about-me > .button2 {
     margin-top: 25px;
   }
- 
-  
+
   .about .container .my-skills {
     padding-top: 15%;
   }
-  
+
   .about .container .my-skills ul {
     list-style: none;
     margin: 0;
@@ -542,7 +537,8 @@
     display: flex;
     justify-content: space-between;
   }
-  .about .container .my-skills ul .lang{
+
+  .about .container .my-skills ul .lang {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -550,6 +546,7 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+  }
 }
 
 .contact {
@@ -579,6 +576,10 @@
   margin-bottom: 15px;
   text-indent: 5px;
   font-family: "Inter", sans-serif;
+}
+
+.contact form .tx-em-div .text-email:last-child input {
+  display: none;
 }
 
 .contact form textarea {
@@ -631,6 +632,54 @@
   color: white;
 }
 
+@media (min-width: 768px) {
+  .contact .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact .contact-header {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 60px;
+    width: 40%;
+  }
+
+  .contact form {
+    width: 60%;
+  }
+
+  .contact .contact-header {
+    text-align: left;
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .contact form .tx-em-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact form .tx-em-div .text-email input {
+    width: 90%;
+    font-family: "Inter", sans-serif;
+  }
+
+  .contact form .tx-em-div .text-email:last-child input {
+    display: block;
+  }
+
+  .contact form .submit {
+    display: flex;
+    justify-content: start;
+  }
+
+  .contact form .submit input {
+    width: 28%;
+  }
+}
 .footer {
   border-top: solid 1px #dfe1e6;
   margin-top: 130px;
