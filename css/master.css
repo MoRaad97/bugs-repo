@@ -276,6 +276,11 @@
   border: solid 1px #8993a4;
   padding: 10px 12px;
   text-align: center;
+  transition: 0.3s;
+}
+
+.recent-work .container .projects .main-project .lags-used .lag-used:hover {
+  background-color: var(--primary-template-color);
 }
 
 /* .recent-work .container .projects .main-project .lags-used .lag-used:hover {
