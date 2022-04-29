@@ -283,11 +283,6 @@
   background-color: var(--primary-template-color);
 }
 
-/* .recent-work .container .projects .main-project .lags-used .lag-used:hover {
-  background-color: var(--primary-template-color);
-  transition: 1s;
-} */
-
 .recent-work .container .projects .main-project .lags-used .lag-used a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -378,7 +373,6 @@
 }
 
 .recent-work .container .projects .secondary-projects .project .overlay {
-  content: "";
   background-image: linear-gradient(#26262600, #262626e5);
   position: absolute;
   top: 0;
