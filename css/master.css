@@ -124,6 +124,7 @@
   font-family: var(--font-family-Crete-Round);
   font-weight: 400;
   color: var(--primary-template-color);
+  margin-bottom: 15px;
 }
 
 .headline .headline-container .text h3 {
@@ -303,15 +304,29 @@
 }
 
 .recent-work .container .projects .secondary-projects .project {
-  background-image: url(../imgs/project-img-desktop.png);
   overflow: hidden;
   position: relative;
   height: 400px;
 }
 
+.recent-work .container .projects .secondary-projects .image-1 {
+  background-image: url(../imgs/project-img-desktop.png);
+  background-size: cover;
+}
+
+.recent-work .container .projects .secondary-projects .image-2 {
+  background-image: url(../imgs/project-img-desktop-2.png);
+  background-size: cover;
+}
+
+.recent-work .container .projects .secondary-projects .image-3 {
+  background-image: url(../imgs/project-img-desktop-3.png);
+  background-size: cover;
+}
+
 .recent-work .container .projects .secondary-projects .project .overlay {
   content: "";
-  background-color: rgba(12, 9, 34, 0.5);
+  background-image: linear-gradient(#26262600, #262626e5);
   position: absolute;
   top: 0;
   left: 0;
