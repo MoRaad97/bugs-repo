@@ -268,7 +268,7 @@
 .recent-work .container .projects .main-project .paragraph {
   font-family: "Inter", sans-serif;
   line-height: 24px;
-  color: #091e42;
+  color: hsl(217.9,76%,10.7%);
 }
 
 .recent-work .container .projects .main-project .lags-used {
@@ -682,6 +682,17 @@
   text-indent: 5px;
   font-family: "Inter", sans-serif;
   outline: none;
+}
+
+input::placeholder{
+  color: rgb(30, 29, 29);
+  font-weight: bold;
+}
+
+textarea::placeholder{
+  color: rgb(30, 29, 29);
+  font-weight: bold;
+
 }
 
 .contact form .tx-em-div .text-email:last-child input {
