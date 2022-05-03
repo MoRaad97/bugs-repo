@@ -149,6 +149,10 @@
   animation-direction: alternate;
 }
 
+.headline .headline-container .text h1:hover {
+  animation: none;
+}
+
 @keyframes color-change {
   100% {
     color: white;
@@ -191,6 +195,7 @@
 
   100% {
     transform: rotateZ(360deg);
+    transition-duration: 1;
   }
 }
 
