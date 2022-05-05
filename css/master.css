@@ -25,6 +25,7 @@
   }
 }
 
+/* stylelint-disable  no-descending-specificity */
 .header {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -149,6 +150,10 @@
   animation-direction: alternate;
 }
 
+.headline .headline-container .text h1:hover {
+  animation: none;
+}
+
 @keyframes color-change {
   100% {
     color: white;
@@ -191,6 +196,7 @@
 
   100% {
     transform: rotateZ(360deg);
+    transition-duration: 1;
   }
 }
 
@@ -262,7 +268,7 @@
 .recent-work .container .projects .main-project .paragraph {
   font-family: "Inter", sans-serif;
   line-height: 24px;
-  color: #091e42;
+  color: hsl(217.9, 76%, 10.7%);
 }
 
 .recent-work .container .projects .main-project .lags-used {
@@ -474,7 +480,6 @@
   }
 }
 
-/* stylelint-disable  no-descending-specificity */
 .about {
   background-color: var(--secondary-template-color);
   padding-top: var(--section-main-padding);
@@ -677,6 +682,16 @@
   text-indent: 5px;
   font-family: "Inter", sans-serif;
   outline: none;
+}
+
+input::placeholder {
+  color: rgb(30, 29, 29);
+  font-weight: bold;
+}
+
+textarea::placeholder {
+  color: rgb(30, 29, 29);
+  font-weight: bold;
 }
 
 .contact form .tx-em-div .text-email:last-child input {

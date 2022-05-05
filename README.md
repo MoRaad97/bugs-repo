@@ -33,6 +33,10 @@ To get a local copy up and running follow these simple steps.
 - Twitter: [@twitterhandle](https://twitter.com/@Bbm-Cru)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Mugiira-kim)
 
+👤 **Henry V. Singbeh**
+
+- GitHub: [@henrycode460](https://github.com/henrycode460)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
