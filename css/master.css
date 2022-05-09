@@ -6,6 +6,10 @@
   --section-main-padding: 50px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 12px;
@@ -110,6 +114,40 @@
     padding-bottom: 6px;
     background-color: #3c3a39;
   }
+}
+
+.menu {
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  background-color: white;
+}
+
+.menu .links-con {
+  background-color: rgba(60, 58, 57, 1);
+  height: 85vh;
+  padding: 15px;
+}
+
+.menu .links-con ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu .links-con ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px rgba(111, 108, 107, 1) solid;
+}
+
+.menu .links-con ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .headline {
