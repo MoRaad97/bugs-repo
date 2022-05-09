@@ -122,6 +122,25 @@ html {
   position: fixed;
   height: 100vh;
   background-color: white;
+  background-image: url(../imgs/footer-bar.svg);
+  background-position: bottom 10px center;
+  background-repeat: no-repeat;
+}
+
+.close-btn-wrapper {
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(60, 58, 57, 1);
+}
+
+.close-btn-wrapper .close-btn {
+  border: none;
+  background-color: inherit;
+}
+
+.close-btn-wrapper .close-btn:hover {
+  cursor: pointer;
 }
 
 .menu .links-con {
