@@ -14,6 +14,10 @@ html {
   display: none;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 12px;
@@ -129,6 +133,7 @@ html {
   background-image: url(../imgs/footer-bar.svg);
   background-position: bottom 10px center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .close-btn-wrapper {
@@ -171,6 +176,12 @@ html {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
 }
 
 .headline {
