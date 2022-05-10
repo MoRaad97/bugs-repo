@@ -257,7 +257,7 @@ html {
 
   100% {
     transform: rotateZ(360deg);
-    transition-duration: 1;
+    transition-duration: 1s;
   }
 }
 
