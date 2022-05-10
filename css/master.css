@@ -168,7 +168,7 @@ html {
 .menu .links-con ul li a {
   text-decoration: none;
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 32px;
 }
