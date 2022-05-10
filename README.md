@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
@@ -36,6 +37,10 @@ To get a local copy up and running follow these simple steps.
 👤 **Henry V. Singbeh**
 
 - GitHub: [@henrycode460](https://github.com/henrycode460)
+
+👤 **Steve**
+
+- GitHub: [@sntakirutimana72](https://github.com/sntakirutimana72)
 
 ## 🤝 Contributing
 

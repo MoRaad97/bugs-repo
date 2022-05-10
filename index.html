@@ -19,15 +19,30 @@
     <title>Portfolio Website: Mohammed Raad</title>
   </head>
   <body>
+    <section class="menu hidden">
+      <div class="close-btn-wrapper">
+        <button class="close-btn">
+          <img src="./imgs/close-button.svg" alt="close button" />
+        </button>
+      </div>
+      <div class="links-con">
+        <ul>
+          <li><a href="#portoflio">Portoflio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+
     <!-- Toolbar start -->
     <header class="header">
       <div class="header-container container">
         <div class="name">Mohammed Raad</div>
         <div class="links">
           <ul>
-            <li><a href="#">Portoflio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#portoflio">Portoflio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>
               <a href="#"><img src="imgs/Icon-Mail.png" alt="Mail-Icon" /></a>
             </li>
@@ -101,7 +116,7 @@
     <!--  headline section end -->
 
     <!--  work section start -->
-    <section class="recent-work">
+    <section class="recent-work" id="portoflio">
       <div class="container">
         <div class="section-header">
           <h1>My Recent Work</h1>
@@ -249,7 +264,7 @@
     <!--  work section end -->
 
     <!--  About Me start -->
-    <section class="about">
+    <section class="about" id="about">
       <img
         class="desktop-Illustr"
         src="imgs/illustration-about-me.png"
@@ -311,7 +326,7 @@
     <!--  About Me end -->
 
     <!-- Form Start -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <h1 class="contact-header">
           I'm always interested in hearing about new projects, so if you'd like
@@ -397,5 +412,6 @@
       </ul>
     </footer>
     <!-- footer End -->
+    <script src="/js/index.js"></script>
   </body>
 </html>
