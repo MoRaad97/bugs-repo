@@ -1,95 +1,76 @@
 const mainProject = {
-  name: "Multi-Post Stories",
-  description: `A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.`,
-  image: "imgs/multi-psot-stories.png",
-  technologies: ["Ruby on rails", "css", "JavaScript", "html"],
-  live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-  source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+  name: 'Multi-Post Stories',
+  description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  image: 'imgs/multi-psot-stories.png',
+  technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+  live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+  source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
 };
 
 const secProjects = [
   {
-    name: "Profesional Art Printing Data",
+    name: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
   {
-    name: "Data Dashboard Healthcare",
+    name: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop-2.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop-2.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
   {
-    name: "Website Protfolio",
+    name: 'Website Protfolio',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop-3.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop-3.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
   {
-    name: "Profesional Art Printing Data",
+    name: 'Profesional Art Printing Data',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
   {
-    name: "Data Dashboard Healthcare",
+    name: 'Data Dashboard Healthcare',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop-2.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop-2.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
   {
-    name: "Website Protfolio",
+    name: 'Website Protfolio',
     description: `A daily selection of privately personalized reads; no
       accounts or sign-ups required. has been the industry's
       standard`,
-    image: "../imgs/project-img-desktop-3.png",
-    technologies: ["html", "bootstrap", "Ruby"],
-    live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-    source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
+    image: '../imgs/project-img-desktop-3.png',
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    live: 'https://moraad97.github.io/portfolio-website-Microverse-project/',
+    source: 'https://github.com/MoRaad97/portfolio-website-Microverse-project',
   },
 ];
 
-const PopupSectionData = {
-  name: [
-    " Keeping track of hundreds of components website",
-    "Multi Post Stories",
-  ],
-  description: `  Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of
-  type and scrambled it 1960s with the releaLorem Ipsum is simply
-  dummy text of the printing and typesetting industry. Lorem Ipsum
-  has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it
-  1960s with the releax map lapora verita.`,
-  image: "imgs/multi-psot-stories.png",
-  technologies: ["Ruby", "html", "html"],
-  live: "https://moraad97.github.io/portfolio-website-Microverse-project/",
-  source: "https://github.com/MoRaad97/portfolio-website-Microverse-project",
-};
-
-let popupSection = `
+const popupSection = `
 <!-- popup section -->
   <div class="popup-container container">
     <div class="popup-header">
@@ -134,7 +115,7 @@ let popupSection = `
 <!-- popup section -->
 `;
 
-let workSection = `
+const workSection = `
   <div class="container">
     <div class="section-header">
       <h1>My Recent Work</h1>
@@ -146,7 +127,7 @@ let workSection = `
     </div>
   </div>`;
 
-let workSectionMainCard = `      
+const workSectionMainCard = `      
 <div class="main-article">
   <img
     class="multi-post"
@@ -167,7 +148,7 @@ let workSectionMainCard = `
 </div>
 `;
 
-let workSectionSecCardOne = `
+const workSectionSecCardOne = `
 <div class="project image-1">
   <div class="overlay">
     <div class="project-content">
@@ -182,7 +163,7 @@ let workSectionSecCardOne = `
   </div>
   <button class="sp">See Project</button>
 </div>`;
-let workSectionSecCardTwo = `
+const workSectionSecCardTwo = `
 <div class="project image-2">
   <div class="overlay">
     <div class="project-content">
@@ -197,7 +178,7 @@ let workSectionSecCardTwo = `
   </div>
   <button class="sp">See Project</button>
 </div>`;
-let workSectionSecCardThr = `
+const workSectionSecCardThr = `
 <div class="project image-3">
   <div class="overlay">
     <div class="project-content">
@@ -213,83 +194,79 @@ let workSectionSecCardThr = `
   <button class="sp">See Project</button>
 </div>`;
 
-window.addEventListener("load", function () {
-  section = document.createElement("section");
-  section.setAttribute("id", "portfolio");
-  section.classList.add("recent-work");
+window.addEventListener('load', () => {
+  const section = document.createElement('section');
+  section.setAttribute('id', 'portfolio');
+  section.classList.add('recent-work');
 
   section.innerHTML = workSection;
-  document.querySelector(".headline").after(section);
-  document.querySelector(".main-project").innerHTML = workSectionMainCard;
-  document.querySelector(".secondary-projects").innerHTML =
-    workSectionSecCardOne +
-    workSectionSecCardTwo +
-    workSectionSecCardThr +
-    workSectionSecCardOne +
-    workSectionSecCardTwo +
-    workSectionSecCardThr;
+  document.querySelector('.headline').after(section);
+  document.querySelector('.main-project').innerHTML = workSectionMainCard;
+  document.querySelector('.secondary-projects').innerHTML = workSectionSecCardOne
+    + workSectionSecCardTwo
+    + workSectionSecCardThr
+    + workSectionSecCardOne
+    + workSectionSecCardTwo
+    + workSectionSecCardThr;
   //
-  const mainCard = document.querySelector(".main-article");
-  mainCard.querySelector("img").setAttribute("src", mainProject.image);
-  mainCard.querySelector("h3").textContent = mainProject.name;
-  mainCard.querySelector("p").textContent = mainProject.description;
-  mainCard.querySelectorAll("a").forEach((anchor, k) => {
+  const mainCard = document.querySelector('.main-article');
+  mainCard.querySelector('img').setAttribute('src', mainProject.image);
+  mainCard.querySelector('h3').textContent = mainProject.name;
+  mainCard.querySelector('p').textContent = mainProject.description;
+  mainCard.querySelectorAll('a').forEach((anchor, k) => {
     anchor.textContent = mainProject.technologies[k];
   });
 
   //
   secProjects.forEach((projectsData, index) => {
-    const Card = document.querySelector(".secondary-projects").children[index];
-    Card.querySelector("h2").textContent = projectsData.name;
-    Card.querySelector("p").textContent = projectsData.description;
-    Card.querySelectorAll("a").forEach((anchor, i) => {
+    const Card = document.querySelector('.secondary-projects').children[index];
+    Card.querySelector('h2').textContent = projectsData.name;
+    Card.querySelector('p').textContent = projectsData.description;
+    Card.querySelectorAll('a').forEach((anchor, i) => {
       anchor.textContent = projectsData.technologies[i];
     });
   });
   // });
   // popupSection
 
-  let popupSectionWeb = document.createElement("section");
-  popupSectionWeb.classList.add("popup", "hidden");
+  const popupSectionWeb = document.createElement('section');
+  popupSectionWeb.classList.add('popup', 'hidden');
   popupSectionWeb.innerHTML = popupSection;
-  document.querySelector(".headline").after(popupSectionWeb);
+  document.querySelector('.headline').after(popupSectionWeb);
   // popup section Logic
-  const openPopup = document.querySelectorAll(".sp");
-  const closePopup = document.querySelector(".close-button");
-  const Popupsection = document.querySelector(".popup");
+  const openPopup = document.querySelectorAll('.sp');
+  const closePopup = document.querySelector('.close-button');
+  const Popupsection = document.querySelector('.popup');
 
   openPopup.forEach((node) => {
     node.onclick = () => {
-      Popupsection.classList.remove("hidden");
+      Popupsection.classList.remove('hidden');
     };
   });
 
-  closePopup.addEventListener("click", () => {
-    Popupsection.classList.add("hidden");
+  closePopup.addEventListener('click', () => {
+    Popupsection.classList.add('hidden');
   });
 });
 
-// document.querySelector(".secondary-projects").innerHTML = workSectionSecCardTwo;
-// document.querySelector(".secondary-projects").innerHTML = workSectionSecCardThr;
+const navOpen = document.querySelector('.icon');
+const navClose = document.querySelector('.close-btn-wrapper');
+const menuElement = document.querySelector('.menu');
+const linksAction = menuElement.querySelectorAll('a');
 
-const navOpen = document.querySelector(".icon");
-const navClose = document.querySelector(".close-btn-wrapper");
-const menuElement = document.querySelector(".menu");
-const linksAction = menuElement.querySelectorAll("a");
-
-navOpen.addEventListener("click", () => {
-  menuElement.classList.remove("hidden");
-  document.querySelector("body").classList.add("overflow-hidden");
+navOpen.addEventListener('click', () => {
+  menuElement.classList.remove('hidden');
+  document.querySelector('body').classList.add('overflow-hidden');
 });
 
-navClose.addEventListener("click", () => {
-  menuElement.classList.add("hidden");
-  document.querySelector("body").classList.remove("overflow-hidden");
+navClose.addEventListener('click', () => {
+  menuElement.classList.add('hidden');
+  document.querySelector('body').classList.remove('overflow-hidden');
 });
 
 linksAction.forEach((node) => {
   node.onclick = () => {
-    menuElement.classList.add("hidden");
-    document.querySelector("body").classList.remove("overflow-hidden");
+    menuElement.classList.add('hidden');
+    document.querySelector('body').classList.remove('overflow-hidden');
   };
 });
