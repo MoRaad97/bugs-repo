@@ -272,4 +272,3 @@ linksAction.forEach((node) => {
     document.querySelector('body').classList.remove('overflow-hidden');
   };
 });
-
