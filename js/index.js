@@ -241,11 +241,13 @@ window.addEventListener('load', () => {
   openPopup.forEach((node) => {
     node.onclick = () => {
       Popupsection.classList.remove('hidden');
+      document.querySelector('body').classList.add('overflow-hidden');
     };
   });
 
   closePopup.addEventListener('click', () => {
     Popupsection.classList.add('hidden');
+    document.querySelector('body').classList.remove('overflow-hidden');
   });
 });
 
@@ -270,3 +272,4 @@ linksAction.forEach((node) => {
     document.querySelector('body').classList.remove('overflow-hidden');
   };
 });
+

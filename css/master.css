@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-*::-webkit-scrollbar {
+.popup-container p::-webkit-scrollbar {
   display: none !important;
 }
 
