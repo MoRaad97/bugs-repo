@@ -419,12 +419,14 @@ html {
   font-size: 16px;
   letter-spacing: 0.5px;
 }
+
 @media (max-width: 929px) {
   .popup .popup-header h2 {
     margin-top: 10px;
     font-size: 30px;
   }
 }
+
 @media (max-width: 767px) {
   .popup {
     flex-direction: column;
@@ -459,10 +461,12 @@ html {
   .popup .popup-header .title-one {
     display: none;
   }
+
   .popup .popup-body .text-footer p {
     height: 165px;
   }
 }
+
 @media (min-width: 768px) {
   .popup .popup-header .title-two {
     display: none;
