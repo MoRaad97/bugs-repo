@@ -438,11 +438,10 @@ html {
 
   .popup .popup-container {
     background-color: white;
-    height: fit-content;
+    height: auto;
     width: 340px;
   }
 
- 
   .popup .popup-header {
     margin-bottom: 22px;
   }

@@ -234,7 +234,6 @@ window.addEventListener('load', () => {
     node.onclick = () => {
       Popupsection.classList.remove('hidden');
       document.body.classList.add('overflow-hidden');
-
     };
   });
 
