@@ -91,14 +91,7 @@ const popupSection = `
       <img src="/imgs/popup-pic.png" alt="popup project pic" />
       <div class="text-footer">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of
-          type and scrambled it 1960s with the releaLorem Ipsum is simply
-          dummy text of the printing and typesetting industry. Lorem Ipsum
-          has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it
-          1960s with the releax map lapora verita.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
         </p>
         <div class="see-btn">
           <button>
@@ -226,9 +219,8 @@ window.addEventListener('load', () => {
       anchor.textContent = projectsData.technologies[i];
     });
   });
-  // });
-  // popupSection
 
+  // popupSection
   const popupSectionWeb = document.createElement('section');
   popupSectionWeb.classList.add('popup', 'hidden');
   popupSectionWeb.innerHTML = popupSection;
@@ -241,13 +233,14 @@ window.addEventListener('load', () => {
   openPopup.forEach((node) => {
     node.onclick = () => {
       Popupsection.classList.remove('hidden');
-      document.querySelector('body').classList.add('overflow-hidden');
+      document.body.classList.add('overflow-hidden');
+
     };
   });
 
   closePopup.addEventListener('click', () => {
     Popupsection.classList.add('hidden');
-    document.querySelector('body').classList.remove('overflow-hidden');
+    document.body.classList.remove('overflow-hidden');
   });
 });
 
