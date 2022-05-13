@@ -267,15 +267,14 @@ linksAction.forEach((node) => {
 
 // Email Validation
 
-const submitForm = document.getElementById('emailv')
+const submitForm = document.getElementById('emailv');
 submitForm.addEventListener('submit', (e) => {
-e.preventDefault();
-let emailChecked = submitForm.elements[2];
-let emailValue = emailChecked.value;
- if (emailValue == emailValue.toLowerCase()) {
-  submitForm.submit()
- } else {
-   alert("email must me lowercase")
- }
+  e.preventDefault();
+  const emailChecked = submitForm.elements[2];
+  const emailValue = emailChecked.value;
+  if (emailValue === emailValue.toLowerCase()) {
+    submitForm.submit();
+  } else {
+    alert('email must me lowercase');
+  }
 });
-
