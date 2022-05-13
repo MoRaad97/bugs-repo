@@ -1005,6 +1005,14 @@ textarea::placeholder {
   color: white;
 }
 
+.form-error {
+  padding: 10px 0;
+  color: red;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 @media (min-width: 768px) {
   .contact .container {
     display: flex;

@@ -79,7 +79,7 @@ const popupSection = `
       </h2>
       <h2 class="title-two">Multi Post Stories</h2>
       <button class="close-button">
-        <img src="/imgs/close-button.svg" alt="close-btn" />
+        <img src="imgs/close-button.svg" alt="close-btn" />
       </button>
     </div>
     <ul>
@@ -88,18 +88,18 @@ const popupSection = `
       <li><a href="#">Ruby on rails</a></li>
     </ul>
     <div class="popup-body">
-      <img src="/imgs/popup-pic.png" alt="popup project pic" />
+      <img src="imgs/popup-pic.png" alt="popup project pic" />
       <div class="text-footer">
         <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
         </p>
         <div class="see-btn">
           <button>
-            See Live <img src="/imgs/Icon-see-live.svg" alt="See Live" />
+            See Live <img src="imgs/Icon-see-live.svg" alt="See Live" />
           </button>
           <button>
             See Source
-            <img src="/imgs/source-icon.png" alt="source-icon" />
+            <img src="imgs/source-icon.png" alt="source-icon" />
           </button>
         </div>
       </div>
@@ -263,4 +263,19 @@ linksAction.forEach((node) => {
     menuElement.classList.add('hidden');
     document.querySelector('body').classList.remove('overflow-hidden');
   };
+});
+
+// Email Validation
+
+const submitForm = document.getElementById('emailv');
+submitForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailChecked = submitForm.elements.Email;
+  const emailValue = emailChecked.value;
+  if (emailValue === emailValue.toLowerCase()) {
+    submitForm.submit();
+  } else {
+    submitForm.querySelector('.form-error')
+      .textContent = 'Email must be in lower case';
+  }
 });
