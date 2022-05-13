@@ -156,8 +156,8 @@ const workSectionSecCardOne = `
   </div>
   <button class="sp">See Project</button>
 </div>`;
-const workSectionSecCardTwo = `
-<div class="project image-2">
+const workSectionSecCardTw = `
+<div class="project image">
   <div class="overlay">
     <div class="project-content">
       <h2></h2>
@@ -268,13 +268,13 @@ linksAction.forEach((node) => {
 // Email Validation
 
 const submitForm = document.getElementById('emailv');
-submitForm.addEventListener('submit', (e) => {
+submitForm.addEventListener('submi', (e) => {
   e.preventDefault();
   const emailChecked = submitForm.elements.Email;
   const emailValue = emailChecked.value;
-  if (emailValue === emailValue.toLowerCase()) {
+  if (emailValue === emailValue.toLowerCase) {
     submitForm.submit();
-  } else {
+  } elseif {
     submitForm.querySelector('.form-error')
       .textContent = 'Email must be in lower case';
   }
