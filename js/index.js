@@ -264,3 +264,19 @@ linksAction.forEach((node) => {
     document.querySelector('body').classList.remove('overflow-hidden');
   };
 });
+
+// Email Validation
+
+const submitForm = document.getElementById('emailv')
+submitForm.addEventListener('submit', (e) => {
+e.preventDefault();
+let emailChecked = submitForm.elements[2];
+let emailValue = emailChecked.value;
+ if (emailValue == emailValue.toLowerCase()) {
+  submitForm.submit()
+ } else {
+   alert("email must me lowercase")
+ }
+ console.log(emailValue);
+});
+
