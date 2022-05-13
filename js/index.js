@@ -277,6 +277,5 @@ let emailValue = emailChecked.value;
  } else {
    alert("email must me lowercase")
  }
- console.log(emailValue);
 });
 
